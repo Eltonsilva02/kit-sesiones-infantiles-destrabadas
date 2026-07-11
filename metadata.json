@@ -1,0 +1,6 @@
+{
+  "name": "Kit Sesiones Infantiles Destrabadas",
+  "description": "+80 recursos lúdicos para psicólogas infantiles listos para imprimir y aplicar",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
