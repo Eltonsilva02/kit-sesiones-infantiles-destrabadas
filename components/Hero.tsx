@@ -51,13 +51,12 @@ export function Hero() {
         </ul>
 
         <motion.a
-          id="ebs-checkout"
           href="#oferta"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="block w-full bg-[#F28C7B] text-white text-center font-heading font-bold text-xl py-5 rounded-full shadow-[0_8px_20px_rgba(242,140,123,0.4)] transition-all hover:bg-[#e07b6a]"
         >
-          ¡Quiero mi Kit ahora!
+          ¡Sí, quiero mi Kit completo!
         </motion.a>
       </motion.div>
     </section>

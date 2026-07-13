@@ -77,8 +77,8 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="font-sans antialiased min-h-screen bg-black text-white">
-        <main className="w-full mx-auto">{children}</main>
+      <body className="font-sans antialiased bg-white text-gray-900 min-h-screen">
+        <main className="max-w-md mx-auto">{children}</main>
       </body>
     </html>
   );

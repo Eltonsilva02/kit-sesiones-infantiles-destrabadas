@@ -46,11 +46,10 @@ export function Scarcity() {
         </p>
 
         <a
-          id="ebs-checkout"
-          href="https://pay.hotmart.com/Y106693716H?checkoutMode=10"
+          href="#oferta"
           className="inline-block w-full bg-[#F28C7B] text-white text-center font-heading font-bold text-lg py-5 rounded-full shadow-[0_8px_20px_rgba(242,140,123,0.4)] transition-all"
         >
-          Aprovechar el descuento exclusivo
+          ¡Sí, quiero mi Kit completo!
         </a>
       </section>
     );
@@ -89,13 +88,12 @@ export function Scarcity() {
       </p>
 
       <motion.a
-        id="ebs-checkout"
-        href="https://pay.hotmart.com/Y106693716H?checkoutMode=10"
+        href="#oferta"
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
         className="inline-block w-full bg-[#F28C7B] text-white text-center font-heading font-bold text-lg py-5 rounded-full shadow-[0_8px_20px_rgba(242,140,123,0.4)] transition-all"
       >
-        Aprovechar el descuento exclusivo
+        ¡Sí, quiero mi Kit completo!
       </motion.a>
     </section>
   );
