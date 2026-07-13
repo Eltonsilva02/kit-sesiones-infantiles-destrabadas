@@ -76,6 +76,12 @@ export default function RootLayout({
             `,
           }}
         />
+        <script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          data-utmify-prevent-subids=""
+          async
+          defer
+        ></script>
       </head>
       <body className="font-sans antialiased bg-white text-gray-900 min-h-screen">
         <main className="max-w-md mx-auto">{children}</main>
