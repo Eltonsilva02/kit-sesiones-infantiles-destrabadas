@@ -161,7 +161,7 @@ export default function Home() {
                 <span className="text-5xl font-bold text-[#fbb03b]">$3,90</span>
               </div>
 
-              <a id="ebs-checkout" href="https://gle-global.mycartpanda.com/checkout/171435237:1" className="w-full text-center py-4 rounded-lg font-bold uppercase tracking-wider text-white transition-all duration-300 border border-[#fbb03b] hover:bg-[#fbb03b] hover:text-black">
+              <a id="ebs-checkout" href="https://pay.hotmart.com/Y106693716H?checkoutMode=10" className="w-full text-center py-4 rounded-lg font-bold uppercase tracking-wider text-white transition-all duration-300 border border-[#fbb03b] hover:bg-[#fbb03b] hover:text-black">
                 QUIERO SOLAMENTE LO BÁSICO
               </a>
               
@@ -226,7 +226,7 @@ export default function Home() {
                 <span className="text-6xl font-bold text-[#fbb03b]">$7,90</span>
               </div>
 
-              <a id="ebs-checkout" href="https://gle-global.mycartpanda.com/checkout/171435077:1" className="w-full text-center py-4 rounded-lg font-bold uppercase tracking-wider text-white bg-gradient-to-b from-[#fbb03b] to-[#c8871e] hover:from-[#00ff00] hover:to-[#008000] shadow-[0_0_15px_rgba(251,176,59,0.9)] hover:shadow-[0_0_20px_#25a837] transition-all duration-300 animate-pulse-slow">
+              <a id="ebs-checkout" href="https://pay.hotmart.com/Y106693716H?checkoutMode=10" className="w-full text-center py-4 rounded-lg font-bold uppercase tracking-wider text-white bg-gradient-to-b from-[#fbb03b] to-[#c8871e] hover:from-[#00ff00] hover:to-[#008000] shadow-[0_0_15px_rgba(251,176,59,0.9)] hover:shadow-[0_0_20px_#25a837] transition-all duration-300 animate-pulse-slow">
                 QUIERO EL COMBO COMPLETO
               </a>
             </div>
