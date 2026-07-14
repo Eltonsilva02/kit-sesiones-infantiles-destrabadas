@@ -5,27 +5,7 @@ import { useEffect, useRef } from 'react';
 export function SocialProof() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  // Auto-scroll logic for the carousel
-  useEffect(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-    
-    let scrollAmount = 0;
-    const scrollStep = 1;
-    const interval = setInterval(() => {
-      if (el) {
-        el.scrollLeft += scrollStep;
-        scrollAmount += scrollStep;
-        // Reset scroll when reaching the end
-        if (el.scrollLeft >= el.scrollWidth - el.clientWidth - 1) {
-           el.scrollLeft = 0;
-           scrollAmount = 0;
-        }
-      }
-    }, 30);
-
-    return () => clearInterval(interval);
-  }, []);
+  // Removido o JS de auto-scroll para usar scroll nativo e evitar cortes
 
   return (
     <section className="bg-white py-16 overflow-hidden">
@@ -35,7 +15,7 @@ export function SocialProof() {
 
       <div 
         ref={scrollRef}
-        className="flex gap-4 px-6 overflow-x-auto hide-scrollbar pb-8"
+        className="flex gap-4 px-6 overflow-x-auto hide-scrollbar pb-8 snap-x snap-mandatory scroll-smooth"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
       >
         {[
@@ -48,7 +28,7 @@ export function SocialProof() {
         ].map((item, idx) => (
           <div 
             key={idx} 
-            className="shrink-0 w-[280px] h-[320px] relative rounded-2xl overflow-hidden shadow-md border border-gray-100"
+            className="snap-center shrink-0 w-[280px] h-[320px] relative rounded-2xl overflow-hidden shadow-md border border-gray-100"
           >
             <Image
               src={item}
@@ -59,6 +39,8 @@ export function SocialProof() {
             />
           </div>
         ))}
+        {/* Elemento fantasma para garantir padding na última foto */}
+        <div className="shrink-0 w-2" />
       </div>
     </section>
   );

@@ -22,7 +22,7 @@ export function IdealFor() {
             key={i}
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "100px" }}
             transition={{ delay: i * 0.1 }}
             className="flex items-start gap-4 bg-white/70 p-5 rounded-2xl shadow-sm"
           >

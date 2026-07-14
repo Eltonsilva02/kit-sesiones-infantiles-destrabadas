@@ -50,6 +50,9 @@ export function OfferCard() {
             <span className="font-heading text-6xl font-black tracking-tighter">3,90</span>
           </div>
           <p className="text-[#A8D8C2] font-bold text-sm mt-2 uppercase tracking-wide">Acceso Inmediato</p>
+          <p className="text-xs text-gray-500 mt-3 mx-auto leading-relaxed max-w-[250px]">
+            Valor final ajustado automáticamente a la moneda de tu país en el checkout
+          </p>
         </div>
 
         <motion.a
