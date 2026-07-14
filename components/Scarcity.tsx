@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { Timer } from 'lucide-react';
 
 export function Scarcity() {
-  const [timeLeft, setTimeLeft] = useState(15 * 60);
+  const [timeLeft, setTimeLeft] = useState(10 * 60);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export function Scarcity() {
         <div className="flex justify-center gap-4 mb-6">
           <div className="bg-white/10 rounded-xl p-4 min-w-[80px]">
             <span className="block font-heading text-4xl font-bold text-[#F28C7B]">
-              15
+              10
             </span>
             <span className="text-xs font-medium uppercase tracking-wider text-white/70">Min</span>
           </div>
