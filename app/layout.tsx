@@ -16,11 +16,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Kit Sesiones Infantiles Destrabadas | +80 Recursos Lúdicos',
   description:
-    '+80 recursos lúdicos para psicólogas infantiles listos para imprimir and aplicar. Material 100% práctico organizado por demandas clínicas reales.',
+    '+80 recursos lúdicos para psicólogas infantiles listos para imprimir y aplicar. Material 100% práctico organizado por demandas clínicas reales.',
   openGraph: {
     title: 'Kit Sesiones Infantiles Destrabadas',
     description:
-      '+80 recursos lúdicos para psicólogas infantiles listos para imprimir and aplicar.',
+      '+80 recursos lúdicos para psicólogas infantiles listos para imprimir y aplicar.',
     type: 'website',
   },
 };
@@ -89,4 +89,3 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
