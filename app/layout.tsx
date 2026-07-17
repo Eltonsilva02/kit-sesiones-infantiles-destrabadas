@@ -82,7 +82,7 @@ export default function RootLayout({
           async
           defer
         ></script>
-        <script src="https://t.contentsquare.net/uxa/d1b192a270c5d.js" defer></script>
+        <script src="https://t.contentsquare.net/uxa/3be35a518241c.js" defer></script>
       </head>
       <body className="font-sans antialiased bg-white text-gray-900 min-h-screen">
         <main className="max-w-md mx-auto">{children}</main>
